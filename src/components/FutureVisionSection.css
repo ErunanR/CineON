@@ -51,3 +51,13 @@
     font-size: 1.05rem;
     line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+    .future-vision {
+        padding: 60px 5%;
+    }
+
+    .vision-title {
+        margin-bottom: 40px;
+    }
+}

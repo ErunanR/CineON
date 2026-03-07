@@ -81,6 +81,14 @@
 }
 
 @media (max-width: 768px) {
+    .how-it-works {
+        padding: 60px 5%;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+
     .timeline-steps {
         flex-direction: column;
         gap: 40px;

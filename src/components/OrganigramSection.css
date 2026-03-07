@@ -138,3 +138,9 @@
         max-width: 300px;
     }
 }
+
+@media (max-width: 768px) {
+    .organigram-section {
+        padding: 60px 5%;
+    }
+}

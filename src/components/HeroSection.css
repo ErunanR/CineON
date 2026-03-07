@@ -48,7 +48,7 @@
 }
 
 .hero-title {
-    font-size: clamp(3.5rem, 8vw, 7rem);
+    font-size: clamp(2.5rem, 10vw, 7rem);
     font-weight: 800;
     letter-spacing: 12px;
     margin-bottom: 8px;
@@ -81,6 +81,10 @@
 }
 
 @media (max-width: 600px) {
+    .hero-title {
+        letter-spacing: 6px;
+    }
+
     .hero-buttons {
         flex-direction: column;
         width: 100%;

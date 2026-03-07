@@ -75,3 +75,9 @@
     opacity: 0.8;
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .team-section {
+        padding: 60px 5%;
+    }
+}

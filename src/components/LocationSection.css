@@ -75,3 +75,13 @@
     color: var(--color-white);
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .location-section {
+        padding: 60px 5%;
+    }
+
+    .location-intro {
+        margin-bottom: 30px;
+    }
+}

@@ -66,6 +66,10 @@
 }
 
 @media (max-width: 768px) {
+    .footer {
+        padding: 40px 5% 20px 5%;
+    }
+
     .footer-content {
         flex-direction: column;
     }

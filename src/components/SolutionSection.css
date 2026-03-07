@@ -90,3 +90,13 @@
     line-height: 1.6;
     font-size: 1.05rem;
 }
+
+@media (max-width: 768px) {
+    .solution-section {
+        padding: 60px 5%;
+    }
+
+    .solution-header {
+        margin-bottom: 40px;
+    }
+}

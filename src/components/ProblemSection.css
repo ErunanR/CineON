@@ -46,3 +46,17 @@
     background: linear-gradient(90deg, rgba(229, 86, 4, 0.1) 0%, rgba(5, 5, 5, 0) 100%);
     border-radius: 0 12px 12px 0;
 }
+
+@media (max-width: 768px) {
+    .problem-section {
+        padding: 60px 5%;
+    }
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
+
+    .story-conclusion {
+        padding: 20px 20px;
+    }
+}

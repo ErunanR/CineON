@@ -131,6 +131,10 @@
 }
 
 @media (max-width: 768px) {
+    .business-model {
+        padding: 60px 5%;
+    }
+
     .model-visual-flow {
         flex-direction: column;
     }

@@ -65,3 +65,13 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+    .social-impact {
+        padding: 60px 5%;
+    }
+
+    .impact-header {
+        margin-bottom: 40px;
+    }
+}
