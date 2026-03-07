@@ -1,0 +1,53 @@
+.future-vision {
+    padding: 120px 5%;
+    background: linear-gradient(180deg, var(--color-black) 0%, #0B132B 100%);
+    text-align: center;
+}
+
+.vision-title {
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    color: var(--color-white);
+    margin-bottom: 60px;
+}
+
+.vision-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vision-card {
+    flex: 1;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.02);
+    border-top: 2px solid var(--color-orange);
+    padding: 50px 30px;
+    border-radius: 12px;
+    transition: var(--transition-smooth);
+}
+
+.vision-card:hover {
+    background: rgba(229, 86, 4, 0.05);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.vision-icon {
+    font-size: 3rem;
+    margin-bottom: 24px;
+}
+
+.vision-card h3 {
+    font-size: 1.5rem;
+    color: var(--color-white);
+    margin-bottom: 16px;
+}
+
+.vision-card p {
+    color: var(--color-text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.6;
+}

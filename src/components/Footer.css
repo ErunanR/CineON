@@ -1,0 +1,77 @@
+.footer {
+    background-color: #030303;
+    padding: 80px 5% 30px 5%;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+}
+
+.footer-brand h2 {
+    font-size: 2rem;
+    color: var(--color-white);
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.footer-brand p {
+    color: var(--color-orange);
+    font-size: 1rem;
+}
+
+.footer-credits {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.credit-block h4 {
+    color: var(--color-white);
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.credit-block p {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.credit-block .year {
+    color: var(--color-orange);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 12px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-bottom p {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-credits {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

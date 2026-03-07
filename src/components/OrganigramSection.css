@@ -1,0 +1,140 @@
+.organigram-section {
+    padding: 120px 5%;
+    background-color: #080a10;
+}
+
+.org-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.org-node {
+    text-align: center;
+    position: relative;
+}
+
+.org-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 24px 30px;
+    border-radius: 16px;
+    min-width: 200px;
+    display: inline-block;
+    backdrop-filter: blur(8px);
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;
+}
+
+.org-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-orange);
+    background: rgba(229, 86, 4, 0.08);
+}
+
+.org-node.leader .org-card {
+    background: rgba(229, 86, 4, 0.15);
+    border-color: var(--color-orange);
+    padding: 30px 40px;
+}
+
+.org-node.leader .org-card h3 {
+    font-size: 1.5rem;
+    color: var(--color-white);
+    margin: 0;
+}
+
+.org-branches {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+    position: relative;
+    width: 100%;
+}
+
+/* Lines for Organigram Tree */
+.org-branches::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.org-branches::after {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: calc(12.5% + 15px);
+    /* Calc limits based on nodes, roughly covering the horizontal spread */
+    right: calc(12.5% + 15px);
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.org-branches .org-node {
+    flex: 1;
+    padding-top: 20px;
+}
+
+.org-branches .org-node::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.org-card h4 {
+    font-size: 1.1rem;
+    color: var(--color-orange);
+    margin-bottom: 8px;
+}
+
+.org-card p {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+    .org-branches {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .org-branches::after {
+        display: none;
+    }
+
+    .org-branches .org-node::before {
+        display: none;
+    }
+
+    .org-branches .org-node {
+        flex: 1 1 calc(50% - 20px);
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .org-branches {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .org-branches .org-node {
+        width: 100%;
+        max-width: 300px;
+    }
+}

@@ -1,0 +1,146 @@
+.business-model {
+    padding: 120px 5%;
+    background-color: #0B132B;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background visual enhancement */
+.business-model::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at center, rgba(229, 86, 4, 0.05) 0%, transparent 60%);
+    z-index: 0;
+}
+
+.business-model .container {
+    position: relative;
+    z-index: 1;
+}
+
+.model-visual-flow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 80px auto;
+    gap: 20px;
+}
+
+.flow-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px 20px;
+    border-radius: 24px;
+    text-align: center;
+    flex: 1;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+.flow-card:hover {
+    transform: translateY(-5px);
+}
+
+.flow-card.cineon-brand {
+    background: rgba(229, 86, 4, 0.1);
+    border: 1px solid rgba(229, 86, 4, 0.3);
+    box-shadow: 0 0 30px rgba(229, 86, 4, 0.2);
+}
+
+.flow-icon {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.flow-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: var(--color-white);
+}
+
+.flow-tag {
+    display: inline-block;
+    font-size: 0.85rem;
+    padding: 6px 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.flow-tag.accent {
+    background: var(--color-orange);
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.flow-arrow {
+    color: var(--color-text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Income Sources */
+.income-sources {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(5, 5, 5, 0.5);
+    border-radius: 24px;
+    padding: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.income-sources h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: var(--color-white);
+}
+
+.income-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.income-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.income-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-orange);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--color-orange);
+}
+
+.income-item h4 {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .model-visual-flow {
+        flex-direction: column;
+    }
+
+    .flow-card {
+        width: 100%;
+    }
+
+    .flow-arrow svg {
+        transform: rotate(90deg);
+        margin: 20px 0;
+    }
+}
