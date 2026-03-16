@@ -1,0 +1,682 @@
+{
+  "Cuanto Se va a gastar.xlsx": {
+    "Incial": [
+      {
+        "Variable": "Eventos por semana",
+        "Valor": "1 – 2"
+      },
+      {
+        "Variable": "Eventos por mes",
+        "Valor": 5
+      },
+      {
+        "Variable": "Eventos por año",
+        "Valor": 60
+      }
+    ],
+    "Eventos": [
+      {
+        "Año": 2026,
+        "Eventos anuales": 60,
+        "Eventos mensuales": 5,
+        "Crecimiento": "Año base"
+      },
+      {
+        "Año": 2027,
+        "Eventos anuales": 72,
+        "Eventos mensuales": 6,
+        "Crecimiento": 0.19999999999999996
+      },
+      {
+        "Año": 2028,
+        "Eventos anuales": 84,
+        "Eventos mensuales": 7,
+        "Crecimiento": 0.16666666666666674
+      },
+      {
+        "Año": 2029,
+        "Eventos anuales": 100,
+        "Eventos mensuales": 8,
+        "Crecimiento": 0.19047619047619047
+      },
+      {
+        "Año": 2030,
+        "Eventos anuales": 115,
+        "Eventos mensuales": "9 – 10",
+        "Crecimiento": 0.1499999999999999
+      },
+      {
+        "Año": 2031,
+        "Eventos anuales": 130,
+        "Eventos mensuales": 11,
+        "Crecimiento": 0.13043478260869557
+      },
+      {
+        "Año": 2032,
+        "Eventos anuales": 150,
+        "Eventos mensuales": "12 – 13",
+        "Crecimiento": 0.15384615384615374
+      },
+      {
+        "Año": 2033,
+        "Eventos anuales": 170,
+        "Eventos mensuales": 14,
+        "Crecimiento": 0.1333333333333333
+      },
+      {
+        "Año": 2034,
+        "Eventos anuales": 190,
+        "Eventos mensuales": 16,
+        "Crecimiento": 0.11764705882352944
+      },
+      {
+        "Año": 2035,
+        "Eventos anuales": 210,
+        "Eventos mensuales": "17 – 18",
+        "Crecimiento": 0.10526315789473695
+      },
+      {
+        "Año": 2036,
+        "Eventos anuales": 230,
+        "Eventos mensuales": 19,
+        "Crecimiento": 0.09523809523809534
+      },
+      {
+        "Año": 2037,
+        "Eventos anuales": 250,
+        "Eventos mensuales": 21,
+        "Crecimiento": 0.08695652173913038
+      }
+    ],
+    "Por evento": [
+      {
+        "Fuente de ingreso": "Publicidad",
+        "Valor promedio": 3000000,
+        "__EMPTY": "",
+        "Concepto": "Proyección de video institucional",
+        "Valor estimado": 1500000,
+        "__EMPTY_1": "",
+        "Variable": "Asistentes promedio",
+        "Valor": 300,
+        "__EMPTY_2": "",
+        "Equipo": "Pantalla inflable para cine",
+        "Rango de precios en el mercado": "$150.000 – $350.000",
+        "__EMPTY_3": "",
+        "Equipo_1": "Pantalla inflable",
+        "Precio unitario": 315000,
+        "Cantidad": 1,
+        "Ingreso": 315000
+      },
+      {
+        "Fuente de ingreso": "Venta de alimentos",
+        "Valor promedio": 1350000,
+        "__EMPTY": "",
+        "Concepto": "Activaciones de marca",
+        "Valor estimado": 1000000,
+        "__EMPTY_1": "",
+        "Variable": "Porcentaje de consumo",
+        "Valor": 0.3,
+        "__EMPTY_2": "",
+        "Equipo": "Proyector audiovisual",
+        "Rango de precios en el mercado": "$70.000 – $150.000",
+        "__EMPTY_3": "",
+        "Equipo_1": "Proyector",
+        "Precio unitario": 135000,
+        "Cantidad": 1,
+        "Ingreso": 135000
+      },
+      {
+        "Fuente de ingreso": "Alquiler de equipos",
+        "Valor promedio": 870000,
+        "__EMPTY": "",
+        "Concepto": "Menciones y presencia de marca",
+        "Valor estimado": 500000,
+        "__EMPTY_1": "",
+        "Variable": "Consumidores estimados",
+        "Valor": 90,
+        "__EMPTY_2": "",
+        "Equipo": "Sistema de sonido",
+        "Rango de precios en el mercado": "$60.000 – $120.000",
+        "__EMPTY_3": "",
+        "Equipo_1": "Cabinas de sonido",
+        "Precio unitario": 120000,
+        "Cantidad": 1,
+        "Ingreso": 120000
+      },
+      {
+        "Fuente de ingreso": "Total Ingreso Por evento",
+        "Valor promedio": 5220000,
+        "__EMPTY": "",
+        "Concepto": "Total Ingreso Por Publicidad",
+        "Valor estimado": 3000000,
+        "__EMPTY_1": "",
+        "Variable": "Gasto promedio",
+        "Valor": 15000,
+        "__EMPTY_2": "",
+        "Equipo": "Sillas para eventos",
+        "Rango de precios en el mercado": "$800 – $2.000 por unidad",
+        "__EMPTY_3": "",
+        "Equipo_1": "Sillas",
+        "Precio unitario": 1000,
+        "Cantidad": 300,
+        "Ingreso": 300000
+      },
+      {
+        "Fuente de ingreso": "",
+        "Valor promedio": "",
+        "__EMPTY": "",
+        "Concepto": "",
+        "Valor estimado": "",
+        "__EMPTY_1": "",
+        "Variable": "Ingreso estimado",
+        "Valor": 1350000,
+        "__EMPTY_2": "",
+        "Equipo": "",
+        "Rango de precios en el mercado": "",
+        "__EMPTY_3": "",
+        "Equipo_1": "Total Ingresos Por Equipos",
+        "Precio unitario": "",
+        "Cantidad": "",
+        "Ingreso": 870000
+      }
+    ],
+    "Ingresos Proyectados": [
+      {
+        "Año": 2026,
+        "Eventos anuales": 60,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 313200000,
+        "Ingresos Mensuales": 26100000
+      },
+      {
+        "Año": 2027,
+        "Eventos anuales": 72,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 375840000,
+        "Ingresos Mensuales": 31320000
+      },
+      {
+        "Año": 2028,
+        "Eventos anuales": 84,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 438480000,
+        "Ingresos Mensuales": 36540000
+      },
+      {
+        "Año": 2029,
+        "Eventos anuales": 100,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 522000000,
+        "Ingresos Mensuales": 43500000
+      },
+      {
+        "Año": 2030,
+        "Eventos anuales": 115,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 600300000,
+        "Ingresos Mensuales": 50025000
+      },
+      {
+        "Año": 2031,
+        "Eventos anuales": 130,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 678600000,
+        "Ingresos Mensuales": 56550000
+      },
+      {
+        "Año": 2032,
+        "Eventos anuales": 150,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 783000000,
+        "Ingresos Mensuales": 65250000
+      },
+      {
+        "Año": 2033,
+        "Eventos anuales": 170,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 887400000,
+        "Ingresos Mensuales": 73950000
+      },
+      {
+        "Año": 2034,
+        "Eventos anuales": 190,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 991800000,
+        "Ingresos Mensuales": 82650000
+      },
+      {
+        "Año": 2035,
+        "Eventos anuales": 210,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 1096200000,
+        "Ingresos Mensuales": 91350000
+      },
+      {
+        "Año": 2036,
+        "Eventos anuales": 230,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 1200600000,
+        "Ingresos Mensuales": 100050000
+      },
+      {
+        "Año": 2037,
+        "Eventos anuales": 250,
+        "Valor Promedio por evento": 5220000,
+        "Ingresos Anuales": 1305000000,
+        "Ingresos Mensuales": 108750000
+      }
+    ],
+    "IPC": [
+      {
+        "Año": 2026,
+        "Eventos anuales": 60,
+        "Valor Promedio por evento": 5220000,
+        "IPC": 0.05,
+        "Ingresos Anuales": 313200000,
+        "Ingresos Mensuales": 26100000
+      },
+      {
+        "Año": 2027,
+        "Eventos anuales": 72,
+        "Valor Promedio por evento": 5481000,
+        "IPC": 0.05,
+        "Ingresos Anuales": 394632000,
+        "Ingresos Mensuales": 32886000
+      },
+      {
+        "Año": 2028,
+        "Eventos anuales": 84,
+        "Valor Promedio por evento": 5755050,
+        "IPC": 0.05,
+        "Ingresos Anuales": 483424200,
+        "Ingresos Mensuales": 40285350
+      },
+      {
+        "Año": 2029,
+        "Eventos anuales": 100,
+        "Valor Promedio por evento": 6042802.5,
+        "IPC": 0.05,
+        "Ingresos Anuales": 604280250,
+        "Ingresos Mensuales": 50356687.5
+      },
+      {
+        "Año": 2030,
+        "Eventos anuales": 115,
+        "Valor Promedio por evento": 6344942.625,
+        "IPC": 0.05,
+        "Ingresos Anuales": 729668401.875,
+        "Ingresos Mensuales": 60805700.15625
+      },
+      {
+        "Año": 2031,
+        "Eventos anuales": 130,
+        "Valor Promedio por evento": 6662189.75625,
+        "IPC": 0.05,
+        "Ingresos Anuales": 866084668.3125,
+        "Ingresos Mensuales": 72173722.359375
+      },
+      {
+        "Año": 2032,
+        "Eventos anuales": 150,
+        "Valor Promedio por evento": 6995299.2440625,
+        "IPC": 0.05,
+        "Ingresos Anuales": 1049294886.609375,
+        "Ingresos Mensuales": 87441240.55078125
+      },
+      {
+        "Año": 2033,
+        "Eventos anuales": 170,
+        "Valor Promedio por evento": 7345064.206265625,
+        "IPC": 0.05,
+        "Ingresos Anuales": 1248660915.0651562,
+        "Ingresos Mensuales": 104055076.25542969
+      },
+      {
+        "Año": 2034,
+        "Eventos anuales": 190,
+        "Valor Promedio por evento": 7712317.416578906,
+        "IPC": 0.05,
+        "Ingresos Anuales": 1465340309.149992,
+        "Ingresos Mensuales": 122111692.429166
+      },
+      {
+        "Año": 2035,
+        "Eventos anuales": 210,
+        "Valor Promedio por evento": 8097933.287407851,
+        "IPC": 0.05,
+        "Ingresos Anuales": 1700565990.3556488,
+        "Ingresos Mensuales": 141713832.5296374
+      },
+      {
+        "Año": 2036,
+        "Eventos anuales": 230,
+        "Valor Promedio por evento": 8502829.951778244,
+        "IPC": 0.05,
+        "Ingresos Anuales": 1955650888.908996,
+        "Ingresos Mensuales": 162970907.409083
+      },
+      {
+        "Año": 2037,
+        "Eventos anuales": 250,
+        "Valor Promedio por evento": 8927971.449367156,
+        "IPC": 0.05,
+        "Ingresos Anuales": 2231992862.3417892,
+        "Ingresos Mensuales": 185999405.1951491
+      }
+    ]
+  },
+  "Tablas Generales.xlsx": {
+    "Corte_1": [
+      {
+        "SECCIÓN PRINCIPAL": "1. PRESENTACIÓN DE LA EMPRESA",
+        "SUBSECCIÓN / ENTREGABLE": "Quiénes son",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Definición de la naturaleza jurídica y origen del equipo promotor.",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Qué hacen",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Definición del producto/servicio basado en una necesidad poblacional.",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Cómo lo hacen",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Explicación de los procesos y recursos (técnicos, humanos y financieros).",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Modelo de Negocio",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Estructura para asegurar la rentabilidad y minimización de riesgos.",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "2. NOMBRE DE LA EMPRESA",
+        "SUBSECCIÓN / ENTREGABLE": "Nombre propuesto",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Denominación comercial única.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Homonimia",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Resultado de la validación legal (que no exista otro igual).",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Registro Legal",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Trámite proyectado ante Cámara de Comercio según normativa local.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "3. QUÉ SE VA A REALIZAR",
+        "SUBSECCIÓN / ENTREGABLE": "Descripción del Proyecto",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Acciones planificadas para lograr el objetivo en un tiempo dado.",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Justificación de Localización",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Razones técnicas y financieras de la ubicación elegida.",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Factores de Localización",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Cercanía a materias primas, vías de acceso y servicios públicos.",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Competencia",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Análisis de otros oferentes en el área de influencia directa.",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "4. PLANTA FÍSICA",
+        "SUBSECCIÓN / ENTREGABLE": "Espacio Necesario",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Especificación técnica de áreas construidas y metros cuadrados requeridos.",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Distribución General",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Ordenación de equipos y puestos (por proceso o por producto).",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Ubicación Propuesta",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Dirección exacta y georreferenciación (incluir mapa/plano).",
+        "ESTADO / CHECK": true
+      },
+      {
+        "SECCIÓN PRINCIPAL": "5. ESTUDIO DE MERCADEO",
+        "SUBSECCIÓN / ENTREGABLE": "Producto o Servicio",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Descripción detallada de los atributos que el cliente valorará.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Cliente Objetivo",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Perfil demográfico y necesidades de la población objetivo.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Análisis de Competencia",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Comparativa de precios y oferta del mercado actual.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Estrategia de Ventas",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Canales de distribución y métodos de comercialización.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "6. ENTORNO",
+        "SUBSECCIÓN / ENTREGABLE": "Factores Económicos",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Análisis de impuestos, inflación y finanzas de la región.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Factores Sociales",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Aspectos culturales y necesidades de la comunidad circundante.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Factores Tecnológicos",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Maquinaria, software o procesos innovadores disponibles.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Factores Legales",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Normas, leyes y licencias gubernamentales aplicables.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "7. LLUVIA DE IDEAS",
+        "SUBSECCIÓN / ENTREGABLE": "Origen de la Idea",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Relato del proceso creativo y observación de necesidades.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Ideas Iniciales",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Listado de las 3 a 5 opciones originales consideradas.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Selección Final",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Criterios de evaluación que llevaron a elegir la idea definitiva.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "8. CUÁNTO SE VA A PRODUCIR",
+        "SUBSECCIÓN / ENTREGABLE": "Cantidad Anual",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Estimación de unidades a producir basada en capacidad instalada y demanda.",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Crecimiento Proyectado",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Proyección de incremento porcentual anual (escalabilidad).",
+        "ESTADO / CHECK": false
+      },
+      {
+        "SECCIÓN PRINCIPAL": "",
+        "SUBSECCIÓN / ENTREGABLE": "Proyección de Ventas",
+        "DESCRIPCIÓN ACADÉMICA PARA REDACCIÓN": "Estimación de ingresos brutos anuales esperados.",
+        "ESTADO / CHECK": false
+      }
+    ],
+    "Hoja2": [
+      {
+        "Región Geográfica": "Bogotá D.C.",
+        "Porcentaje de Asistencia (Personas de 12 años y más)": "45,7 %",
+        "Justificación para el Evaluador del Proyecto": "El mercado con mayor tracción cultural del país; concentra casi la mitad de la asistencia nacional."
+      },
+      {
+        "Región Geográfica": "Central",
+        "Porcentaje de Asistencia (Personas de 12 años y más)": "34,0 %",
+        "Justificación para el Evaluador del Proyecto": "Mercado secundario (Potencial para expansión de microfranquicias en Fase 2)."
+      },
+      {
+        "Región Geográfica": "Oriental",
+        "Porcentaje de Asistencia (Personas de 12 años y más)": "31,8 %",
+        "Justificación para el Evaluador del Proyecto": "Mercado secundario (Potencial para expansión Fase 2)."
+      },
+      {
+        "Región Geográfica": "Pacífica",
+        "Porcentaje de Asistencia (Personas de 12 años y más)": "29,2 %",
+        "Justificación para el Evaluador del Proyecto": "Mercado de penetración a mediano plazo."
+      },
+      {
+        "Región Geográfica": "Caribe",
+        "Porcentaje de Asistencia (Personas de 12 años y más)": "23,5 %",
+        "Justificación para el Evaluador del Proyecto": "Mercado con barreras culturales frente al formato tradicional."
+      },
+      {
+        "Región Geográfica": "Amazonía / Orinoquía",
+        "Porcentaje de Asistencia (Personas de 12 años y más)": "22,1 %",
+        "Justificación para el Evaluador del Proyecto": "Zona con mayor déficit de infraestructura, foco para responsabilidad social."
+      }
+    ],
+    "Hoja3": [
+      {
+        "Variable Analizada (DANE ECC)": "Porcentaje de asistencia a cine",
+        "Estratos 1 y 2": "21,4 %",
+        "Estrato 3": "43,2 %",
+        "Estratos 4, 5 y 6": "68,5 %"
+      },
+      {
+        "Variable Analizada (DANE ECC)": "Principal barrera de acceso",
+        "Estratos 1 y 2": "Costo económico y transporte",
+        "Estrato 3": "Falta de tiempo libre",
+        "Estratos 4, 5 y 6": "N/A (Alta participación)"
+      }
+    ],
+    "Hoja4": [
+      {
+        "Periodo Estratégico": "FASE 1: Consolidación",
+        "Año": "1 (2026)",
+        "Eventos Proyectados": 60,
+        "Crecimiento / Hito Operativo": "Inicio con 1 unidad móvil (Bogotá)."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "2 (2027)",
+        "Eventos Proyectados": 72,
+        "Crecimiento / Hito Operativo": "Incremento de frecuencia mensual (6 eventos/mes)."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "3 (2028)",
+        "Eventos Proyectados": 84,
+        "Crecimiento / Hito Operativo": "Máxima eficiencia de la 1ra unidad operativa."
+      },
+      {
+        "Periodo Estratégico": "FASE 2: Expansión",
+        "Año": "4 (2029)",
+        "Eventos Proyectados": 100,
+        "Crecimiento / Hito Operativo": "Adquisición de la 2da unidad móvil."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "5 (2030)",
+        "Eventos Proyectados": 115,
+        "Crecimiento / Hito Operativo": "Apertura de operaciones en Región Central."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "6 (2031)",
+        "Eventos Proyectados": 130,
+        "Crecimiento / Hito Operativo": "Inicio del programa de Microfranquicias."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "7 (2032)",
+        "Eventos Proyectados": 150,
+        "Crecimiento / Hito Operativo": "Expansión a Región Caribe y Pacífica."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "8 (2033)",
+        "Eventos Proyectados": 170,
+        "Crecimiento / Hito Operativo": "Consolidación de red logística nacional."
+      },
+      {
+        "Periodo Estratégico": "FASE 3: Liderazgo",
+        "Año": "9 (2034)",
+        "Eventos Proyectados": 190,
+        "Crecimiento / Hito Operativo": "Digitalización total de métricas de impacto."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "10 (2035)",
+        "Eventos Proyectados": 210,
+        "Crecimiento / Hito Operativo": "3ra unidad móvil propia + Red de franquicias."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "11 (2036)",
+        "Eventos Proyectados": 230,
+        "Crecimiento / Hito Operativo": "Liderazgo en el sector de Marketing Social."
+      },
+      {
+        "Periodo Estratégico": "",
+        "Año": "12 (2037)",
+        "Eventos Proyectados": 250,
+        "Crecimiento / Hito Operativo": "Producción y exhibición de contenidos propios."
+      }
+    ],
+    "Hoja5": [
+      {
+        "Variable de Segmentación": "Geográfica",
+        "Detalle del Perfil": "Localidades de Bogotá con predominancia de estratos 1, 2 y 3."
+      },
+      {
+        "Variable de Segmentación": "Demográfica",
+        "Detalle del Perfil": "Hombres y mujeres de 5 a 50 años (Foco en núcleos familiares)."
+      },
+      {
+        "Variable de Segmentación": "Socioeconómica",
+        "Detalle del Perfil": "Población con ingresos limitados para gasto en ocio cultural."
+      },
+      {
+        "Variable de Segmentación": "Psicográfica",
+        "Detalle del Perfil": "Valoración de la unidad familiar, convivencia ciudadana y cine."
+      },
+      {
+        "Variable de Segmentación": "Conductual",
+        "Detalle del Perfil": "Alta receptividad a ofertas de valor gratuitas y eventos de barrio."
+      }
+    ]
+  }
+}

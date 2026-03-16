@@ -6,11 +6,11 @@ const HowItWorksSection = () => {
     const setRefTitle = useIntersectionObserver();
 
     const steps = [
-        { num: "01", title: "Gestión de patrocinadores" },
-        { num: "02", title: "Planeación con comunidades" },
-        { num: "03", title: "Montaje técnico del cine móvil" },
-        { num: "04", title: "Proyección y actividades" },
-        { num: "05", title: "Evaluación del impacto social" }
+        { num: "01", title: "Gestión comercial", icon: "🤝" },
+        { num: "02", title: "Planeación del evento", icon: "📋" },
+        { num: "03", title: "Montaje técnico", icon: "⚙️" },
+        { num: "04", title: "Ejecución del evento", icon: "🎬" },
+        { num: "05", title: "Desmontaje y evaluación", icon: "📊" }
     ];
 
     return (
@@ -25,9 +25,11 @@ const HowItWorksSection = () => {
                             const setRefStep = useIntersectionObserver();
                             return (
                                 <div className={`timeline-step reveal reveal-delay-${index + 1}`} ref={setRefStep} key={index}>
-                                    <div className="step-number">{step.num}</div>
+                                    <div className="step-number">
+                                        <span className="step-icon">{step.icon}</span>
+                                    </div>
                                     <div className="step-content">
-                                        <h4>Paso {index + 1}</h4>
+                                        <h4>Fase {index + 1}</h4>
                                         <p>{step.title}</p>
                                     </div>
                                 </div>

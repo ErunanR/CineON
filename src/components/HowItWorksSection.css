@@ -59,6 +59,10 @@
     transition: var(--transition-smooth);
 }
 
+.step-icon {
+    font-size: 2rem;
+}
+
 .timeline-step:hover .step-number {
     background-color: var(--color-orange);
     color: var(--color-white);

@@ -22,8 +22,9 @@ const NavBar = () => {
                 <nav className="navbar-links">
                     <a href="#solucion">La Solución</a>
                     <a href="#como-funciona">Cómo Funciona</a>
-                    <a href="#impacto">Impacto Social</a>
-                    <a href="#equipo">Equipo</a>
+                    <a href="#proyecciones">Proyecciones</a>
+                    <a href="#competencia">Competencia</a>
+                    <a href="#impacto">Impacto</a>
                 </nav>
                 <div className="navbar-cta">
                     <a href="#impacto" className="btn-primary" style={{ padding: '8px 20px', fontSize: '0.9rem' }}>Conoce Más</a>

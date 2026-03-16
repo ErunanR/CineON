@@ -46,6 +46,11 @@
     background: linear-gradient(145deg, rgba(229, 86, 4, 0.1) 0%, rgba(255, 255, 255, 0.01) 100%);
 }
 
+.impact-icon-top {
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
 .impact-value {
     font-size: clamp(2rem, 3.5vw, 2.5rem);
     font-weight: 800;
